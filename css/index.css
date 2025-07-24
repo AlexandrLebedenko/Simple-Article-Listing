@@ -1,0 +1,55 @@
+@import url(./reset.css);
+.wrapper {
+  min-height: 100vh;
+  min-width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 2.625rem 0;
+  background-color: #f8fafc;
+  color: #000000;
+}
+.topside {
+  max-width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.title {
+  font-size: 2.25rem;
+}
+.seperator {
+  margin: 2.625rem 0;
+}
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 46rem;
+  margin: auto;
+}
+.article-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.25rem;
+}
+.article-list__item:last-child {
+  margin: 0;
+}
+.article__img {
+  border-radius: 1rem;
+  max-height: 10rem;
+  max-width: 10rem;
+  margin-right: 1.5rem;
+}
+.article__description {
+  max-width: 33rem;
+}
+.article__title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+span {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4d5562;
+}
