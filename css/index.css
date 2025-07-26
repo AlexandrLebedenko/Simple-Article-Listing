@@ -4,7 +4,7 @@
   min-width: 100%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  padding: 2.625rem 0;
+  padding: 2.625rem 1rem;
   background-color: #f8fafc;
   color: #000000;
 }
@@ -52,4 +52,60 @@ span {
   font-size: 0.875rem;
   font-weight: 500;
   color: #4d5562;
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 660px) and (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .article__title {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 556px) and (max-width: 659px) {
+  .title {
+    font-size: 1.25rem;
+  }
+  .article__img {
+    max-height: 8rem;
+    max-width: 8rem;
+  }
+  .article__title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 505px) and (max-width: 555px) {
+  .title {
+    font-size: 1.125rem;
+  }
+  .article__img {
+    max-height: 7rem;
+    max-width: 7rem;
+  }
+  .article__title {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 504px) {
+  .title {
+    font-size: 1rem;
+  }
+  .article__img {
+    max-height: 6rem;
+    max-width: 6rem;
+  }
+  .article__title {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  span {
+    font-size: 0.625rem;
+  }
 }
